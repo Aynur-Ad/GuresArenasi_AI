@@ -71,6 +71,7 @@ Bu proje eğitim amaçlı geliştirilmiş olup, kullanılan görsel ve işitsel 
 
 | Materyal Türü | Kullanım Yeri | Kaynak / Eser Sahibi |
 | :--- | :--- | :--- |
+| **🎵 Müzik** |Oyun ArkaPlan Müziği | [freesound_community](https://pixabay.com/users/freesound_community-46691455/) (Pixabay) |
 | **🎵 Müzik** | Arena Dövüş Müziği | [Action Fight - Pixabay](https://pixabay.com/music/upbeat-action-fight-239712/) |
 | **🔊 SFX** | Power Up (E Tuşu) | [Item Pick Up - Pixabay](https://pixabay.com/sound-effects/film-special-effects-item-pick-up-38258/) |
 | **🔊 SFX** | Kazanma Sesi | [Success Fanfare - Pixabay](https://pixabay.com/sound-effects/success-fanfare-trumpets-6185/) |
@@ -81,11 +82,11 @@ Bu proje eğitim amaçlı geliştirilmiş olup, kullanılan görsel ve işitsel 
 
 ## 📜 Lisans ve Teslim Notları
 
-Bu proje, "Oyun Programlama" dersi final projesi kapsamında geliştirilmiştir.
+Bu proje, "Oyun Programlama" dersi projesi kapsamında geliştirilmiştir.
 * **AI Yöntemi:** Single Layer Perceptron / Heuristic Optimization
 * **Veri Okuma:** UnityWebRequest (JSON Parsing)
 
 ## 👨‍💻 Geliştirici (Developer)
 
-**Aynur Adıbelli**
-*Bilgisayar Mühendisliği*
+**Aynur Adıbelli** 
+**Bilgisayar Mühendisliği**
