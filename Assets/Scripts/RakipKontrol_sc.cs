@@ -3,7 +3,7 @@ using System.Security.Cryptography;
 using UnityEngine;
 using UnityEngine.Networking;
 
-// JSON okumak ýcýn yardimci sinif
+// JSON okumak icin yardimci sinif
 [System.Serializable]
 public class DNA
 {
@@ -24,7 +24,7 @@ public class RakipKontrol_sc : MonoBehaviour
     void Start()
     {
         /* oyun baslar baslamaz rakip, zeminle(tag: ground) carpisip olmesin diye
-        arenada belirlenen optimal nokta etrafýnda rastgele olusturuluyor  */
+        arenada belirlenen optimal nokta etrafinda rastgele olusturuluyor  */
         float randomX = Random.Range(-2f, 2f);
         float randomY = Random.Range(1f, 2f);
         float randomZ = Random.Range(-2f, 2f);
@@ -36,17 +36,16 @@ public class RakipKontrol_sc : MonoBehaviour
         if (p != null) player = p.transform;
 
         // Hafizada veri varsa ceker, yoksa rastgele hareket eder
-
         if (AIDataStorage_sc.loadedWeights != null && AIDataStorage_sc.loadedWeights.Length == weights.Length)
         {
-            // VARSA ONU KULLAN(Akýllý Mod) -> MenuManager kisminda yapiliyor ve burada kopyaliyoruz
+            // VARSA ONU KULLAN(Akilli Mod) -> MenuManager kisminda yapiliyor ve burada kopyaliyoruz
             System.Array.Copy(AIDataStorage_sc.loadedWeights, weights, weights.Length);
         }
         else
         {
-            // YOKSA RASTGELE BAÞLA (Aptal Mod)
+            // YOKSA RASTGELE BASLA (Aptal Mod)
             RandomizeBrain();
-            Debug.Log("Rakip: Veri yok, rastgele (aptal) moddayým.");
+            Debug.Log("Rakip: Veri yok, rastgele (aptal) moddayim.");
         }
     }
 
@@ -92,7 +91,7 @@ public class RakipKontrol_sc : MonoBehaviour
             // Debug koyalim ki hata olursa ne yapmaya calistigini gorelim
             if (actionValue > 0.3f) Debug.Log("AI Dusunuyor... Deger: " + actionValue);
 
-            if (actionValue > 1.5f) // Esik degeri biraz yukseltelim cunku genleri cok artirdik
+            if (actionValue > 1.5f)
             {
                 Debug.Log("Saldiri: CHARGE!");
                 Charge(15f);
