@@ -65,8 +65,27 @@ Ana menüde Unity AudioMixer ile entegre çalışan iki ses kanalı bulunur:
 
 ---
 
+## 🏆 Kaynakça ve Teşekkür (Credits & Assets)
+
+Bu proje eğitim amaçlı geliştirilmiş olup, kullanılan görsel ve işitsel materyaller aşağıdaki kaynaklardan temin edilmiştir:
+
+| Materyal Türü | Kullanım Yeri | Kaynak / Eser Sahibi |
+| :--- | :--- | :--- |
+| **🎵 Müzik** | Arena Dövüş Müziği | [Action Fight - Pixabay](https://pixabay.com/music/upbeat-action-fight-239712/) |
+| **🔊 SFX** | Power Up (E Tuşu) | [Item Pick Up - Pixabay](https://pixabay.com/sound-effects/film-special-effects-item-pick-up-38258/) |
+| **🔊 SFX** | Kazanma Sesi | [Success Fanfare - Pixabay](https://pixabay.com/sound-effects/success-fanfare-trumpets-6185/) |
+| **🔊 SFX** | Kaybetme Sesi | [Game Over Arcade - freesound_community](https://pixabay.com/sound-effects/game-over-arcade-6435/) |
+| **🖼️ Görsel** | Oyun Kapak Resmi | [TapTap Image Source](https://img.tapimg.net/market/images/81b144fba83cf4d40a3f093c0a9080ff.jpg/appicon_m?t=1) |
+
+---
+
 ## 📜 Lisans ve Teslim Notları
 
-Bu proje, "Oyun Programlama ve Yapay Zeka" dersi final projesi kapsamında geliştirilmiştir.
+Bu proje, "Oyun Programlama" dersi final projesi kapsamında geliştirilmiştir.
 * **AI Yöntemi:** Single Layer Perceptron / Heuristic Optimization
 * **Veri Okuma:** UnityWebRequest (JSON Parsing)
+
+## 👨‍💻 Geliştirici (Developer)
+
+**Aynur Adıbelli**
+*Bilgisayar Mühendisliği*
