@@ -89,4 +89,4 @@ Bu proje, "Oyun Programlama" dersi projesi kapsamında geliştirilmiştir.
 ## 👨‍💻 Geliştirici (Developer)
 
 * **Aynur Adıbelli** 
-* **Bilgisayar Mühendisliği**
+(*Bilgisayar Mühendisliği Bölümü*)
